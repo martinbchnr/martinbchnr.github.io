@@ -1,56 +1,36 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hi, my name is Martin and "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Hi everybody, I'm Martin and currently a PhD student at the [ELLIS Robot Learning Lab](https://rl.uni-freiburg.de/) at the University of Freiburg supervised by Prof. Abhinav Valada. I like to research in the fields of autonomous robotics and 3D scene understanding with a focus on developing actionable robotic maps via abstraction using 3D scene graphs. In particular, I am interested in combining these representations with natural language to enable robots to follow instructions for navigation and mobile manipulation.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Before starting my PhD, I have had the pleasure of studying Robotics and AI at the [Technical University of Munich (TUM)](https://tum.de) and spent a wonderful couple of months in Seoul at Seoul National University (SNU). Before that, I started my academic journey as a Bachelor's student in Mechanical Engineering at [Karlsruhe Institute of Technology (KIT)](https://kit.edu/)
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Selected Publications
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<img style="float: right" src="images/artipoint.png" height="200px" width="180px" border="3px"> [Articulated Object Estimation in the Wild](https://artipoint.cs.uni-freiburg.de/), Abdelrhman Werby\*, Martin Büchner\*, Adrian Röfer\*, Chenguang Huang, Wolfram Burgard, Abhinav Valada, Conference on Robot Learning (CoRL), 2025. Best Paper Award Runner-Up: RSS'25 Workshop on Egocentric Perception and Action for Robot Learning.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<img style="float: right" src="images/openlex3d.png" height="200px" width="180px" border="3px"> [OpenLex3D: A Tiered Evaluation Benchmark for Open-Vocabulary 3D Scene Representations](https://openlex3d.github.io), Christina Kassab\*, Sacha Morin\*, Martin Büchner\*, Matías Mattamala, Kumaraditya Gupta, Abhinav Valada, Liam Paull, Maurice Fallon, arXiv preprint arXiv:2503.19764, 2025.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<img style="float: right" src="images/more.png" height="200px" width="180px" border="3px"> [MORE: Mobile Manipulation Rearrangement Through Grounded Language Reasoning](https://more-model.cs.uni-freiburg.de/), Mohammad Mohammadi\*, Daniel Honerkamp\*, Martin Büchner\*, Matteo Cassinelli\*, Tim Welschehold, Fabien Despinoy, Igor Gilitschenski, Abhinav Valada, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025. Also presented at RSS Workshop on Mobile Manipulation: Emerging Opportunities & Contemporary Challenges, 2025.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<img style="float: right" src="images/loopgnn.png" height="200px" width="180px" border="3px"> [Visual Loop Closure Detection Through Deep Graph Consensus](https://loopgnn.cs.uni-freiburg.de/), Martin Büchner, Liza Dahiya, Simon Dorer, Vipul Ramtekkar, Kenji Nishimiya, Daniele Cattaneo, Abhinav Valada, International Conference on Robots and Intelligent Systems (IROS), 2025.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<img style="float: right" src="images/curb-osg.png" height="200px" width="180px" border="3px"> [Collaborative Dynamic 3D Scene Graphs for Open-Vocabulary Scene Understanding](https://ov-curb.cs.uni-freiburg.de/), Tim Steinke\*, Martin Büchner\*, Niclas Vödisch\*, Abhinav Valada, International Conference on Intelligent Robots and Systems (IROS), 2025.
 
-**Markdown generator**
+<img style="float: right" src="images/hovsg.png" height="200px" width="180px" border="3px"> [Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation](https://hovsg.github.io/), Abdelrhman Werby\*, Chenguang Huang\*, Martin Büchner\*, Abhinav Valada, Wolfram Burgard, Robotics: Science and Systems (RSS), 2024. Also at ICRA 2024 Workshop on Vision and Language Models for Navigation and Manipulation (VLMNM).
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+<img style="float: right" src="images/moma-llm.png" height="200px" width="180px" border="3px"> [Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation](https://moma-llm.cs.uni-freiburg.de/), Daniel Honerkamp\*, Martin Büchner\*, Fabian Despinoy, Tim Welschehold, Abhinav Valada, IEEE Robotics and Automation Letters (RA-L), 2024. Spotlight Talk: RSS 2024 Workshop on Semantic Reasoning and Goal Understanding in Robotics (SemRob). Spotlight Talk: ICRA 2024 Workshop on Vision and Language Models for Navigation and Manipulation (VLMNM).
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<img style="float: right" src="images/curb-sg.png" height="200px" width="180px" border="3px"> [Collaborative Dynamic 3D Scene Graphs for Automated Driving](https://curb.cs.uni-freiburg.de/), Elias Greve\*, Martin Büchner\*, Niclas Vödisch\*, Wolfram Burgard, Abhinav Valada, IEEE International Conference on Robotics and Automation (ICRA), 2024 🇯🇵.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<img style="float: right" src="images/learning2drive.png" height="200px" width="180px" border="3px"> [Efficient Learning of Urban Driving Policies Using Bird's-Eye-View Representations](https://learning2drive.cs.uni-freiburg.de/), Raphael Trumpp\*, Martin Büchner\*, Abhinav Valada, Marco Caccamo, IEEE Intelligent Transportation Systems Conference (ITSC), 2023.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<img style="float: right" src="images/lanegnn.png" height="200px" width="180px" border="3px"> [Learning and Aggregating Lane Graphs for Urban Automated Driving](http://urbanlanegraph.cs.uni-freiburg.de), Martin Büchner\*, Jannik Zürn\*, Ion-George Todoran, Abhinav Valada, Wolfram Burgard, IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2023.
+
+<img style="float: right" src="images/batch3dmot.png" height="200px" width="180px" border="3px"> [3D Multi-Object Tracking Using Graph Neural Networks with Cross-Edge Modality Attention](https://batch3dmot.cs.uni-freiburg.de/), Martin Büchner, Abhinav Valada, IEEE Robotics and Automation Letters (RA-L), 2022 + IROS.
