@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Martin Büchner - Personal Website"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "Martin Büchner - 3D Scene Understanding for Mobile Robotics"
 title_separator          : "-"
 name                     : &name "Martin Büchner"
 description              : &description "personal description"

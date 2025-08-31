@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, my name is Martin and "
+title: "Martin Büchner"
 author_profile: true
 redirect_from: 
   - /about/
