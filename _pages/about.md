@@ -13,7 +13,10 @@ Before starting my PhD, I have had the pleasure of studying Robotics and AI at t
 
 ## Selected Publications
 
-<img style="float: right" src="images/artipoint.png" height="200px" width="180px" border="3px"> [Articulated Object Estimation in the Wild](https://artipoint.cs.uni-freiburg.de/), Abdelrhman Werby\*, Martin Büchner\*, Adrian Röfer\*, Chenguang Huang, Wolfram Burgard, Abhinav Valada, Conference on Robot Learning (CoRL), 2025. Best Paper Award Runner-Up: RSS'25 Workshop on Egocentric Perception and Action for Robot Learning.
+<img style="float: right" src="images/artipoint.png" height="200px" width="180px" border="3px"> [Articulated Object Estimation in the Wild](https://artipoint.cs.uni-freiburg.de/)  
+Abdelrhman Werby\*, Martin Büchner\*, Adrian Röfer\*, Chenguang Huang, Wolfram Burgard, Abhinav Valada
+Best Paper Award Runner-Up: RSS'25 Workshop on Egocentric Perception and Action for Robot Learning.
+Conference on Robot Learning (CoRL), 2025. 
 <br>
 
 
